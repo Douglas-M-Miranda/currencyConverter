@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: rgb(218, 233, 250);
+}
+
+.containerCard {
+    background-color: #d1d1fa;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+    padding: 2em;
+    width: clamp(20rem, 50vw, 40rem);
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #012752;
+
+    text-align: center;
+
+    margin-bottom: 1em;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #012752;
+
+    margin-top: 2em;
+
+    text-align: center;
+}

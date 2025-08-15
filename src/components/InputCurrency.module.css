@@ -1,0 +1,23 @@
+.containerInput {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.containerInput input {
+    border-radius: 3px;
+    background-color: #fafcff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #615e5e9d;
+
+    height: 2.1em;
+    padding-left: 5px;
+}
+
+.containerInput input:hover {
+    background-color: #ececec;
+}
+
+.containerInput input:focus {
+    outline: none;
+}

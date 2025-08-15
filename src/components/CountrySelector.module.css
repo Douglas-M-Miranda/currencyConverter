@@ -1,0 +1,34 @@
+.containerCountries {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 2.5em;
+}
+
+.containerSelect {
+    background-color: #fafcff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #615e5e9d;
+    border-radius: 3px;
+
+    height: 2.6em;
+}
+
+.containerSelect:hover {
+    background-color: #ececec;
+}
+
+.containerCountries button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+.containerCountries button:hover {
+    transform: scale(1.1);
+}
+
+.containerCountries button:active {
+    transform: scale(1);
+}
