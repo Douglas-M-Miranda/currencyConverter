@@ -1,7 +1,6 @@
-// import { useState } from 'react'
 import CountrySelector from './components/CountrySelector'
-import InputCurrency from './components/InputCurrency'
 import './App.css'
+
 
 function App() {
   const today = new Date();
@@ -10,8 +9,7 @@ function App() {
   return (
     <main className='containerCard'>
       <h1>Currency Converter</h1>
-      <CountrySelector />
-      <InputCurrency />
+      <CountrySelector  />
       <footer>All these prices are set on day {formatteDate}</footer>
     </main>
   )

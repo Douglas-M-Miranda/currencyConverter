@@ -1,7 +1,7 @@
 .containerInput {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 10px;
 }
 
 .containerInput input {
@@ -11,7 +11,9 @@
     border: 1px solid #615e5e9d;
 
     height: 2.1em;
+    width: 100%;
     padding-left: 5px;
+    margin-left: 10px;
 }
 
 .containerInput input:hover {
@@ -20,4 +22,8 @@
 
 .containerInput input:focus {
     outline: none;
+}
+
+.containerInput button {
+    padding: 0 .5em;
 }
